@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/chosen.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/color-01.css')}}">
+	@livewireStyles
 </head>
 <body class="home-page home-01 ">
 
@@ -480,7 +481,7 @@
 			</div>
 		</div>
 	</footer>
-
+@livewireScripts
 	<script src="{{ asset('assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
 	<script src="{{ asset('assets/js/jquery-ui-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
 	<script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
